@@ -1,0 +1,63 @@
+table.redTable {
+	background-color: #FFF8EB;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 99%;
+}
+
+table.redTable td, table.redTable th {
+	border: 1px solid #AAAAAA;
+	padding: 6px 2px;
+}
+
+table.redTable tbody td {
+	font-size: 13px;
+}
+
+table.redTable thead {
+	background: #A40808;
+	background: -moz-linear-gradient(top, #bb4646 0%, #ad2020 66%, #A40808 100%);
+	background: -webkit-linear-gradient(top, #bb4646 0%, #ad2020 66%, #A40808 100%);
+	background: linear-gradient(to bottom, #bb4646 0%, #ad2020 66%, #A40808 100%);
+}
+
+table.redTable thead th {
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+	border-left: 2px solid #A40808;
+}
+
+table.redTable thead th:first-child {
+	border-left: none;
+}
+
+table.redTable tfoot {
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #A40808;
+	background: -moz-linear-gradient(top, #bb4646 0%, #ad2020 66%, #A40808 100%);
+	background: -webkit-linear-gradient(top, #bb4646 0%, #ad2020 66%, #A40808 100%);
+	background: linear-gradient(to bottom, #bb4646 0%, #ad2020 66%, #A40808 100%);
+}
+
+table.redTable tfoot td {
+	font-size: 13px;
+}
+
+table.redTable tfoot .links {
+	text-align: right;
+}
+
+table.redTable tfoot .links a {
+	display: inline-block;
+	background: #FFFFFF;
+	color: #A40808;
+	padding: 2px 8px;
+	border-radius: 5px;
+}
